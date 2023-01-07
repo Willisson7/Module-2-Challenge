@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    background-color: rgb(152, 194, 188);
+}
+    
+
+ h1 {
+    width: auto;
+    display:flex;
+    justify-content: center;
+    align-content: flex-end;
+    font-family: 'Trebuchet', sans-serif;
+    color: rgb(65, 68, 68);
+    background-color: bisque;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    align-content: flex-end;
+    background-color: blueviolet;
+    
+}
+
+nav a:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: xx-large;
+    padding-left: 2%;
+    /* background-color: aliceblue; */
+    align-items: baseline;
+    border-bottom: 4px;
+}
+
+.hero-banner {
+    color: aliceblue;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 10%;
+    background-image: url(./images/Batman.webp);
+}
+
+main, h2 {
+    flex-wrap: wrap;
+    font-size: xx-large;
+    flex-direction: column;
+
+}
+
+body {
+    background-image: url(./images/FamilyPhoto2021.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+ 
+.page-section{
+    display: flex;
+    justify-content:left;
+    
+}
+
+.page-section h2 {
+    width: 15%;
+    border-right: 5px solid rgb(15, 15, 15) ;
+
+
+}
