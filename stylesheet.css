@@ -43,7 +43,7 @@ nav {
 .link {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
-    text-decoration:none ;
+    text-decoration:none;
     margin-right: 20px;
     padding-bottom: 3px;
     color: rgb(65, 68, 68);
@@ -51,24 +51,22 @@ nav {
     border-bottom: 4px solid rgb(65, 68, 68);
 }
 .hero-banner {
-    /* display: flex; */
-    justify-content: flex-end;
-    align-items: baseline;
-    color: rgb(224, 210, 13);
-    background-color: aqua;
-    margin: auto;
+     display: flex;
+    justify-content:end;
+    margin:auto;
     width: auto;
-    height: auto;
     padding: 10%;
     background-image: url(./images/Batman.webp);
     background-size: contain;
+    position: relative;
 }
-.hero-banner h2 {
-    
+.catchphrase {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(224, 210, 13);
     display: flex;
-    justify-content: right;
-    align-items: baseline;
-
+    position: absolute;
+    bottom: 0;
+    right: 0;   
 }
 
 main, h2 {
