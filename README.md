@@ -8,5 +8,4 @@ This page will be revisited and updated as my knowledge of full-stack developmen
 
 This page also contains Contact information allowing for interested parties to reach me.
 
-
-image.png
+![Basic Screenshot of webpage](./images/Screen-Shot.jpg) 
